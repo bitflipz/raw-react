@@ -5,6 +5,7 @@ function App() {
     <div className='App'>
       <div className='App-header'>
         <h1>raw-react</h1>
+        {/*components here*/}
       </div>
     </div>
   )
