@@ -1,13 +1,12 @@
 import './App.css';
+import Component from './components/TestComponent';
+import Wrapper from './components/Wrapper';
 
 function App() {
   return (
-    <div className='App'>
-      <div className='App-header'>
-        <h1>raw-react</h1>
-        {/*components here*/}
-      </div>
-    </div>
+    <Wrapper>
+      <Component /> {/*insert components here*/}
+    </Wrapper>
   )
 }
 
